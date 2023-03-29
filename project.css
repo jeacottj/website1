@@ -1,0 +1,101 @@
+.home {
+    /* background-color: */
+    background-image: url(saturn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: cover
+}
+
+.text {
+    background-image: url(tweety.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.other {
+    /* background-color: */
+    background-image: url(simpsonholiday.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    text-shadow: white 1px 3px;
+    border: 5px solid red;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    background-color: grey;
+}
+
+#navbar{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(133,);
+}
+#navbar a {
+    color: rgb(60,38,185);
+    font-size: 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar a:hover{
+    transition-duration: 1s;
+    color: white;
+}
+
+h2 {
+    display: flex;
+    justify-content:left;
+    color:black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    text-shadow: wheat 1px 3px;
+}
+p{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(233, 228, 228);
+    word-wrap: break-word;
+}
+
+.mainbody{
+    display: flex;
+    align-items: left;
+    font-weight: bold;
+    font-size: 60%;
+    color: rebeccapurple;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    display: flex;
+    justify-content:left;
+    color:black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: wheat 1px 3px;
+}
+
+.img1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
